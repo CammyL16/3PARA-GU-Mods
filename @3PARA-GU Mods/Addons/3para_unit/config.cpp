@@ -2229,7 +2229,6 @@ class cfgVehicles
 	};
 };
 
-};
 
 class CfgWeapons
 {
