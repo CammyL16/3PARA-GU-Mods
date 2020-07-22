@@ -1,6 +1,7 @@
 Changelog for 3PARA-GU Mods which is a custom mod made and maintained by Cammy for in house use
 
-Current version 1.0
+Released version 1.0
+Dev version 1.1
 
 1.0 04/05/2020
 mod has been made and testing has started
@@ -9,3 +10,12 @@ work is currently on the 3para_units addon
 work on the 3para_units addon is nearing completion for atleat the infantry weapons (bar possible L7A2 GPMG with RIS rail) and infantry roles
 looking into setting up infantry formations 
 planning out the vehicle loadouts 
+	20/07/2020
+build 1.0 finished and released
+roadmap is roughly as follows
+1.1 formations & fixes
+1.2 vehicles & fixes
+1.3 any changes requested by 3PARA-GU HQ & L7A2 w/ ris rail if posible
+
+1.1 22/07/2020
+	1.1 is nearing completion along with several bug fixes

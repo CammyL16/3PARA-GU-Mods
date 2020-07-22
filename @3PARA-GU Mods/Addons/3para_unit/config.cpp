@@ -733,8 +733,8 @@ class cfgVehicles
 		RespawnItems[] = {"ACE_EarPlugs","ACE_CableTie","ACRE_PRC152","ACE_microDAGR","ACE_Flashlight_XL50","ACE_MapTools","ACE_IR_Strobe_Item",mag_2("ACE_morphine"),mag_2("ACE_epinephrine"),mag_8("ACE_elasticBandage"),mag_7("ACE_quikclot"),mag_4("ACE_tourniquet")};			
 		magazines[] = {mag_2("30Rnd_556x45_Stanag_Tracer_Red"),"SmokeShell","SmokeShellBlue","SmokeShellGreen"};				
 		respawnMagazines[] = {mag_2("30Rnd_556x45_Stanag_Tracer_Red"),"SmokeShell","SmokeShellBlue","SmokeShellGreen"};		
-		linkedItems[] = {"H_PilotHelmetFighter_B", "ItemMap", "ItemCompass", "ACE_Altimeter", "UK3CB_BAF_HMNVS"};			
-		respawnLinkedItems[] = {"H_PilotHelmetFighter_B", "ItemMap", "ItemCompass", "ACE_Altimeter", "UK3CB_BAF_HMNVS"};		
+		linkedItems[] = {"H_PilotHelmetFighter_B", "ItemMap", "ItemCompass", "ACE_Altimeter",};			
+		respawnLinkedItems[] = {"H_PilotHelmetFighter_B", "ItemMap", "ItemCompass", "ACE_Altimeter",};		
 	};
 
 	class B_3para_aac_RW : B_Soldier_base_F	
@@ -805,7 +805,7 @@ class cfgVehicles
 		weapons[] = {"3para_L22A2", "Throw", "Put","Binocular"};				
 		respawnWeapons[] = {"3para_L22A2", "Throw", "Put","Binocular"};		
 		Items[] = {"ACE_EarPlugs","ACE_CableTie","ACRE_PRC152","ACRE_PRC343","ACE_microDAGR","ACE_Flashlight_XL50","ACE_MapTools","ItemcTabHCam","JSHK_contam_mask_m50_hoodless"};				
-		RespawnItems[] = {{"ACE_EarPlugs","ACE_CableTie","ACRE_PRC152","ACRE_PRC343","ACE_microDAGR","ACE_Flashlight_XL50","ACE_MapTools","ItemcTabHCam","JSHK_contam_mask_m50_hoodless"};			
+		RespawnItems[] = {"ACE_EarPlugs","ACE_CableTie","ACRE_PRC152","ACRE_PRC343","ACE_microDAGR","ACE_Flashlight_XL50","ACE_MapTools","ItemcTabHCam","JSHK_contam_mask_m50_hoodless"};			
 		magazines[] = {mag_6("30Rnd_556x45_Stanag_Tracer_Red"),mag_2("SmokeShell"),mag_2("HandGrenade")};				
 		linkedItems[] = {"UK3CB_BAF_H_PilotHelmetHeli_A","UK3CB_BAF_V_Pilot_A", "ItemMap","B_UAVTerminal", "ItemCompass", "ACE_Altimeter", "UK3CB_BAF_HMNVS"};				
 		respawnLinkedItems[] = {"UK3CB_BAF_H_PilotHelmetHeli_A","UK3CB_BAF_V_Pilot_A", "ItemMap","B_UAVTerminal", "ItemCompass", "ACE_Altimeter", "UK3CB_BAF_HMNVS"};		
@@ -2227,8 +2227,422 @@ class cfgVehicles
             };
 		};
 	};
+	
 };
 
+class CfgGroups {
+	
+    class WEST {
+		
+        class B_3para {
+            name = "3PARA-GU";
+
+            class Infantry {
+                name = "Rifle Sections";
+
+                class B_3para_1sec {
+                    name = "1 Section";
+                    side = 1;
+                    faction = "B_3para";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "B_3para_sec_com";
+                    };
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "B_3para_sec_ftl";
+                    };
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_AT";
+                    };
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_MG";
+                    };
+                    class Unit4 {
+                        position[] = {9,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_MA";
+                    };
+                    class Unit5 {
+                        position[] = {12,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_gren";
+                    };
+                    class Unit6 {
+                        position[] = {14,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_point";
+                    };
+                    class Unit7 {
+                        position[] = {16,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_DMR";
+                    };
+				};
+				
+                class B_3para_2sec {
+                    name = "2 Section";
+                    side = 1;
+                    faction = "B_3para";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "B_3para_sec_com";
+                    };
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "B_3para_sec_ftl";
+                    };
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_AT";
+                    };
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_MG";
+                    };
+                    class Unit4 {
+                        position[] = {9,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_MA";
+                    };
+                    class Unit5 {
+                        position[] = {12,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_gren";
+                    };
+                    class Unit6 {
+                        position[] = {14,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_gren";
+                    };
+                    class Unit7 {
+                        position[] = {16,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_DMR";
+                    };
+				};
+				
+				class B_3para_0sec {
+                    name = "Basic Rifle Section";
+                    side = 1;
+                    faction = "B_3para";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "B_3para_sec_com";
+                    };
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "B_3para_sec_ftl";
+                    };
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_R";
+                    };
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_MG";
+                    };
+                    class Unit4 {
+                        position[] = {9,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_MA";
+                    };
+                    class Unit5 {
+                        position[] = {12,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_AT";
+                    };
+                    class Unit6 {
+                        position[] = {14,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_gren";
+                    };
+                    class Unit7 {
+                        position[] = {16,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sec_DMR";
+                    };
+				};
+			};	
+			
+            class Supports {
+                name = "Supportive Sections";
+				
+                class B_3para_aac_sec {
+                    name = "Army Air Corps";
+                    side = 1;
+                    faction = "B_3para";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "B_3para_aac_FW";
+                    };
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "B_3para_aac_FW";
+                    };
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_aac_RW";
+                    };
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_aac_RW";
+                    };
+                    class Unit4 {
+                        position[] = {9,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_aac_DR";
+                    };
+                    class Unit5 {
+                        position[] = {12,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_aac_med";
+                    };
+                    class Unit6 {
+                        position[] = {14,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_aac_crew";
+                    };
+                    class Unit7 {
+                        position[] = {16,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_aac_crew";
+                    };
+				};				
+				
+                class B_3para_FSGct {
+                    name = "FSG Command Team";
+                    side = 1;
+                    faction = "B_3para";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "B_3para_sup_TL";
+                    };
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "B_3para_JTAC";
+                    };
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sup_run";
+                    };
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sup_run";
+                    };
+                };
+				
+                class B_3para_FSGsnip {
+                    name = "FSG Sniper Team";
+                    side = 1;
+                    faction = "B_3para";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "B_3para_sup_LRR";
+                    };
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "B_3para_sup_LRRa";
+                    };
+                };
+				
+                class B_3para_FSGidf {
+                    name = "FSG IDF Pair";
+                    side = 1;
+                    faction = "B_3para";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "B_3para_sup_IDF";
+                    };
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "B_3para_sup_IDFa";
+                    };
+                };	
+				
+                class B_3para_FSGsft {
+                    name = "FSG Support Fire Team";
+                    side = 1;
+                    faction = "B_3para";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "B_3para_sup_MG";
+                    };
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "B_3para_sup_MGa";
+                    };
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sup_AT";
+                    };
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sup_run";
+                    };
+                };
+			};	
+			
+			class Command {
+                name = "Command Sections";
+
+                class B_3para_coyteam {
+                    name = "Company HQ";
+                    side = 1;
+                    faction = "B_3para";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "B_3para_coy_CO";
+                    };
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "B_3para_coy_2IC";
+                    };
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sig";
+                    };
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_sig";
+                    };
+                };
+				
+                class B_3para_pltteam {
+                    name = "Platoon HQ";
+                    side = 1;
+                    faction = "B_3para";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "B_3para_plt_CO";
+                    };
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "B_3para_plt_2IC";
+                    };
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_plt_doc";
+                    };
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "B_3para_plt_EOD";
+                    };
+                };
+			};				
+		};
+	};
+};
 
 class CfgWeapons
 {
@@ -2237,7 +2651,6 @@ class CfgWeapons
 	class UK3CB_BAF_L85A3_UGL;
 	class UK3CB_BAF_L129A1;
 	class UK3CB_BAF_L22A2;
-
 
     class 3para_L85A3: UK3CB_BAF_L85A3
     {
@@ -2275,7 +2688,7 @@ class CfgWeapons
             class LinkedItemsOptic
             {
                 item = "rksl_optic_lds";
-                slot = "asdg_OpticRail_UK3CB_BAF_L85A3";
+                slot = "asdg_OpticRail_UK3CB_BAF_L85";
             };
             class LinkedItemsMuzzle
             {
