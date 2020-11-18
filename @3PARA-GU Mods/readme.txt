@@ -1,5 +1,5 @@
-Version 1.0: 3PARA-GU Mods
-(4 May 20)
+Version 1.2: 3PARA-GU Mods
+(19 Nov 2020)
 
 Installation
 ------------
