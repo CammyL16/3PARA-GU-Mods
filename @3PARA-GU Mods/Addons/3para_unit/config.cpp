@@ -2231,17 +2231,33 @@ class cfgVehicles
 	
 	/*start of the vehicles with custom loadouts 
 	need all class names of all vehicles 
-	3CB Landrovers (except the civvy versions)
-	3CB Huskys (patrol & logistic variants)
-	3CB Jackal & Coyotes
+	3CB Landrovers
+	
+	3CB Husky ✓
+	"UK3CB_BAF_Husky_Logistics_GMG_Sand" "UK3CB_BAF_Husky_Logistics_GMG_Green" "UK3CB_BAF_Husky_Logistics_HMG_Sand") "UK3CB_BAF_Husky_Logistics_HMG_Green" "UK3CB_BAF_Husky_Logistics_GPMG_Sand" "UK3CB_BAF_Husky_Logistics_GPMG_Green" 
+	"UK3CB_BAF_Husky_Passenger_GMG_Green" "UK3CB_BAF_Husky_Passenger_HMG_Sand") "UK3CB_BAF_Husky_Passenger_HMG_Green" "UK3CB_BAF_Husky_Passenger_GPMG_Sand" "UK3CB_BAF_Husky_Passenger_GPMG_Green" "UK3CB_BAF_Husky_Passenger_GMG_Sand"
+	3CB Jackal
+	
+	3CB Coyote
+	"UK3CB_BAF_Coyote_Logistics_L111A1_D" "UK3CB_BAF_Coyote_Logistics_L111A1_W" "UK3CB_BAF_Coyote_Logistics_L134A1_D" "UK3CB_BAF_Coyote_Logistics_L134A1_W"
 	3CB Man trucks
-	RKSL Wildcat
-	3CB Apache Generic (if thats the right one)
-	boeing chinook (RAF)
-	some little birds
-	3CB bulldog & warrior
-	3CB offshore raiding craft
+	
+	RKSL Wildcat✓
+	"rksla3_aw159_hma2"
+	3CB Apache Generic ✓
+	"UK3CB_BAF_Apache_AH1_DynamicLoadoutUnlimited"
+	boeing chinook (RAF) ✓
+	"Boeing_CH_47_F_R"
+	little birds
+	
+	3CB bulldog ✓
+	"UK3CB_BAF_FV432_Mk3_RWS_Green" "UK3CB_BAF_FV432_Mk3_RWS_Sand" "UK3CB_BAF_FV432_Mk3_GPMG_Green" "UK3CB_BAF_FV432_Mk3_GPMG_Sand"
+	3CB warrior ✓
+	"UK3CB_BAF_Warrior_A3_D_Camo" "UK3CB_BAF_Warrior_A3_W_Camo" "UK3CB_BAF_Warrior_A3_D_Cage_Camo" "UK3CB_BAF_Warrior_A3_W_Cage_Camo" "UK3CB_BAF_Warrior_A3_D_Cage" "UK3CB_BAF_Warrior_A3_W_Cage" "UK3CB_BAF_Warrior_A3_D" "UK3CB_BAF_Warrior_A3_W"
+	3CB offshore raiding craft ✓
+	"UK3CB_BAF_RHIB_GPMG" "UK3CB_BAF_RHIB_HMG"
 	3CB Panther 
+	
 	*/
 	/*class B_Heli_light_01_F;
     class My_New_Heli: B_Heli_Light_01_F 
