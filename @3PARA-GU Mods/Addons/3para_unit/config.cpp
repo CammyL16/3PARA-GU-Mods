@@ -2227,6 +2227,54 @@ class cfgVehicles
             };
 		};
 	};
+
+	
+	/*start of the vehicles with custom loadouts 
+	need all class names of all vehicles 
+	3CB Landrovers (except the civvy versions)
+	3CB Huskys (patrol & logistic variants)
+	3CB Jackal & Coyotes
+	3CB Man trucks
+	RKSL Wildcat
+	3CB Apache Generic (if thats the right one)
+	boeing chinook (RAF)
+	some little birds
+	3CB bulldog & warrior
+	3CB offshore raiding craft
+	3CB Panther 
+	*/
+	/*class B_Heli_light_01_F;
+    class My_New_Heli: B_Heli_Light_01_F 
+    {
+        faction = "B_3para"; 
+        side = 1;
+        crew = "B_Helipilot_F"; //or if you make your own crew... crew = "TEST_Heli_pilot";
+        class TransportItems //Cargo Items
+        {
+            class _xx_Medikit
+            {
+                name = "Medikit";
+                count = 1;
+            };
+            class _xx_Toolkit
+            {
+                name = "Toolkit";
+                count = 1;
+            };
+            class _xx_FirstAidKit
+            {
+                name = "FirstAidKit";
+                count = 5;
+            };
+            class _xx_30Rnd_65x39_caseless_mag
+            {
+                count = 25;
+            };
+        };
+    };*/
+	
+	
+	
 };
 
 
