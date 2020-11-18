@@ -9,3 +9,22 @@ work is currently on the 3para_units addon
 work on the 3para_units addon is nearing completion for atleat the infantry weapons (bar possible L7A2 GPMG with RIS rail) and infantry roles
 looking into setting up infantry formations 
 planning out the vehicle loadouts 
+	20/07/2020
+build 1.0 finished and released
+roadmap is roughly as follows
+1.1 formations & fixes
+1.2 vehicles & fixes
+1.3 any changes requested by 3PARA-GU HQ & L7A2 w/ ris rail if posible
+
+1.1 22/07/2020
+	1.1 is nearing completion along with several bug fixes
+	
+1.1 22/07/2020
+	1.1 finished and released along with several bug fixes
+	
+1.2 23/07/2020
+	1.2 started 
+
+1.2 06/11/2020
+	1.2 was nearly complete but due to no recent saves kept after system restore version is effectively lost and work to redo the version is commenced
+
