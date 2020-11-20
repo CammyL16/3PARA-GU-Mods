@@ -805,7 +805,7 @@ class cfgVehicles
 		weapons[] = {"3para_L22A2", "Throw", "Put","Binocular"};				
 		respawnWeapons[] = {"3para_L22A2", "Throw", "Put","Binocular"};		
 		Items[] = {"ACE_EarPlugs","ACE_CableTie","ACRE_PRC152","ACRE_PRC343","ACE_microDAGR","ACE_Flashlight_XL50","ACE_MapTools","ItemcTabHCam","JSHK_contam_mask_m50_hoodless"};				
-		RespawnItems[] = {{"ACE_EarPlugs","ACE_CableTie","ACRE_PRC152","ACRE_PRC343","ACE_microDAGR","ACE_Flashlight_XL50","ACE_MapTools","ItemcTabHCam","JSHK_contam_mask_m50_hoodless"};			
+		RespawnItems[] = {"ACE_EarPlugs","ACE_CableTie","ACRE_PRC152","ACRE_PRC343","ACE_microDAGR","ACE_Flashlight_XL50","ACE_MapTools","ItemcTabHCam","JSHK_contam_mask_m50_hoodless"};			
 		magazines[] = {mag_6("30Rnd_556x45_Stanag_Tracer_Red"),mag_2("SmokeShell"),mag_2("HandGrenade")};				
 		linkedItems[] = {"UK3CB_BAF_H_PilotHelmetHeli_A","UK3CB_BAF_V_Pilot_A", "ItemMap","B_UAVTerminal", "ItemCompass", "ACE_Altimeter", "UK3CB_BAF_HMNVS"};				
 		respawnLinkedItems[] = {"UK3CB_BAF_H_PilotHelmetHeli_A","UK3CB_BAF_V_Pilot_A", "ItemMap","B_UAVTerminal", "ItemCompass", "ACE_Altimeter", "UK3CB_BAF_HMNVS"};		
