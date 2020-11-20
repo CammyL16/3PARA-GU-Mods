@@ -27,4 +27,7 @@ roadmap is roughly as follows
 
 1.2 06/11/2020
 	1.2 was nearly complete but due to no recent saves kept after system restore version is effectively lost and work to redo the version is commenced
+	
+1.2 20/11/2020 
+	vehicles branch reasonable progress being made 
 
