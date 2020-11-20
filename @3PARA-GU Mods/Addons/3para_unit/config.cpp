@@ -2236,11 +2236,15 @@ class cfgVehicles
 	3CB Husky ✓
 	"UK3CB_BAF_Husky_Logistics_GMG_Sand" "UK3CB_BAF_Husky_Logistics_GMG_Green" "UK3CB_BAF_Husky_Logistics_HMG_Sand") "UK3CB_BAF_Husky_Logistics_HMG_Green" "UK3CB_BAF_Husky_Logistics_GPMG_Sand" "UK3CB_BAF_Husky_Logistics_GPMG_Green" 
 	"UK3CB_BAF_Husky_Passenger_GMG_Green" "UK3CB_BAF_Husky_Passenger_HMG_Sand") "UK3CB_BAF_Husky_Passenger_HMG_Green" "UK3CB_BAF_Husky_Passenger_GPMG_Sand" "UK3CB_BAF_Husky_Passenger_GPMG_Green" "UK3CB_BAF_Husky_Passenger_GMG_Sand"
-	3CB Jackal
-	
-	3CB Coyote
-	"UK3CB_BAF_Coyote_Logistics_L111A1_D" "UK3CB_BAF_Coyote_Logistics_L111A1_W" "UK3CB_BAF_Coyote_Logistics_L134A1_D" "UK3CB_BAF_Coyote_Logistics_L134A1_W"
-	3CB Man trucks
+	3CB Jackal ✓
+	"UK3CB_BAF_Jackal2_L134A1_D" "UK3CB_BAF_Jackal2_L134A1_W" "UK3CB_BAF_Jackal2_L134A1_D2" "UK3CB_BAF_Jackal2_L134A1_G" 
+	"UK3CB_BAF_Jackal2_L111A1_D" "UK3CB_BAF_Jackal2_L111A1_W" "UK3CB_BAF_Jackal2_L111A1_D2" "UK3CB_BAF_Jackal2_L111A1_G"	
+	3CB Coyote ✓
+	"UK3CB_BAF_Coyote_Logistics_L134A1_D" "UK3CB_BAF_Coyote_Logistics_L134A1_W" "UK3CB_BAF_Coyote_Logistics_L134A1_D2" "UK3CB_BAF_Coyote_Logistics_L134A1_G" 
+	"UK3CB_BAF_Coyote_Logistics_L111A1_D" "UK3CB_BAF_Coyote_Logistics_L111A1_W" "UK3CB_BAF_Coyote_Logistics_L111A1_D2" "UK3CB_BAF_Coyote_Logistics_L111A1_G"
+	"UK3CB_BAF_Coyote_Passenger_L134A1_D" "UK3CB_BAF_Coyote_Passenger_L134A1_W" "UK3CB_BAF_Coyote_Passenger_L134A1_D2" "UK3CB_BAF_Coyote_Passenger_L134A1_G"
+	"UK3CB_BAF_Coyote_Passenger_L111A1_D" "UK3CB_BAF_Coyote_Passenger_L111A1_W" "UK3CB_BAF_Coyote_Passenger_L111A1_D2" "UK3CB_BAF_Coyote_Passenger_L111A1_G"
+	3CB Man trucks 
 	
 	RKSL Wildcat✓
 	"rksla3_aw159_hma2"
@@ -2256,8 +2260,8 @@ class cfgVehicles
 	"UK3CB_BAF_Warrior_A3_D_Camo" "UK3CB_BAF_Warrior_A3_W_Camo" "UK3CB_BAF_Warrior_A3_D_Cage_Camo" "UK3CB_BAF_Warrior_A3_W_Cage_Camo" "UK3CB_BAF_Warrior_A3_D_Cage" "UK3CB_BAF_Warrior_A3_W_Cage" "UK3CB_BAF_Warrior_A3_D" "UK3CB_BAF_Warrior_A3_W"
 	3CB offshore raiding craft ✓
 	"UK3CB_BAF_RHIB_GPMG" "UK3CB_BAF_RHIB_HMG"
-	3CB Panther 
-	
+	3CB Panther ✓
+	"UK3CB_BAF_Panther_GPMG_Sand_A" "UK3CB_BAF_Panther_GPMG_Green_A" 
 	*/
 	/*class B_Heli_light_01_F;
     class My_New_Heli: B_Heli_Light_01_F 
